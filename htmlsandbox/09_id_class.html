@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div, span, id and class</title>
+  <style>
+    .card {
+      background-color: #f4f4f4;
+      border: 2px #ccc solid;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    .enhance {
+      color: yellow;
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main-header" class="card main-header">
+    <h1>My Website</h1>
+    <h2>A site about me</h2>
+  </div>
+  <ul id="main-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div id="about" class="card">
+    <h3>About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <div class="enhance"> Quae obcaecati in qui tempora maiores magni accusantium
+      itaque veritatis aspernatur facere</div> ad nihil odit<div class="enhance">  cum quas, tempore nulla laboriosam unde reiciendis ullam
+      blanditiis eos vel quaerat.</div> Pariatur consectetur autem quas hic?</p>
+  </div>
+
+  <div id="contact" class="card">
+    <h3>Contact Me</h3>
+    <ul>
+      <li>Address: 50 Main st, Boston MA</li>
+      <li>Phone: (555) 555-5555</li>
+      <li>Email: me@something.com</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>CopyRight &copy; 2021</p>
+  </div>
+</body>
+
+</html>
