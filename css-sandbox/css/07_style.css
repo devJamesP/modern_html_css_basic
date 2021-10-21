@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+
+.container {
+  max-width: 960px;
+  margin: 30px auto;
+}
+
+.clr {
+  clear: left;
+  clear: right;
+  clear: both;
+}
+
+.box {
+  background: #f4f4f4;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+#box-2 {
+  float: left;
+  width: 30%;
+  background: #ccfdf2;
+}
+
+#box-3 {
+  float: left;
+  width: 30%;
+  background: #ccfdf2;
+}
+
+#box-4 {
+  float: right;
+  width: 80%;
+}
+
+.box p {
+  /* Text Align */
+  text-align: left;
+  text-align: right;
+  text-align: center;
+}

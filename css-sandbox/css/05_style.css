@@ -1,0 +1,32 @@
+#box-1 {
+  background-color: blanchedalmond;
+  /* border-width: 3px;
+  border-color: red;
+  border-style: solid; */
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+#box-2 {
+  background: #333;
+  color: #fff;
+  border-top: 3px solid blue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#box-3 {
+  /* background-image: url('../img/annie-spratt-oOxbg8eVXRg-unsplash.jpg'); */
+  /* background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+  background: url('../img/annie-spratt-oOxbg8eVXRg-unsplash.jpg') no-repeat center center/cover;
+  color: #fff;
+  width: 300px;
+  height: 600px;
+}
+
+#box-4 {
+  background: url('../img/bee.png') no-repeat center center;
+  background-attachment: fixed;
+}

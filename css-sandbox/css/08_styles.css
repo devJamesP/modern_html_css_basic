@@ -1,0 +1,37 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: coral;
+  text-decoration: underline;
+}
+
+/* a:visited {
+  color: red;
+} */
+/* condition : color of a:hover valids*/
+a:active {
+  color: red;
+}
+
+/* Button Styling */
+.btn {
+  background: #4c6ca0;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #f4f4f4;
+  background: #446190;
+}
